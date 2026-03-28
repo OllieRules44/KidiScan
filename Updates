@@ -1,0 +1,9 @@
+New stuff in v1.01:
+
+GP SDK version tags — dumps every GP$xxx library string with its description and offset
+Nucleus/ThreadX RTOS scan — Generalplus chips often use Nucleus RTOS, checks for those signatures
+AES key hunt — hexdumps 128 bytes before + 256 after AESCipheredFile, then scans ±512 bytes for 128/192/256-bit key candidates based on entropy
+NAND layout — dumps the GPNandTag/GPNandTag2 context which should show the partition table
+Embedded filenames — finds .bin, .kpa, .wav, .bmp etc filenames baked into the firmware
+LDR PC jump table decode — actually resolves where each ARM exception handler lives in memory
+Ghidra bootstrap script — auto-generates a .java script you can run in Ghidra to label the vector table and known strings instantly
