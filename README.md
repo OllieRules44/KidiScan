@@ -1,6 +1,6 @@
 # What Is It?
 
-Its A Firmware Dump Analysis Tool for the DX2 And DX3 (Coming Soon)
+Its A Firmware Dump Analysis Tool for the DX2 And DX3
 
 # How Do I Use It?
 
